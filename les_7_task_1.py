@@ -8,7 +8,7 @@
 
 import random
 size = 20
-array = [random.randint(-100,100) for i in range(size)]
+array = [random.randrange(-100,100) for i in range(size)]
 
 # классический вариант
 def bubble_sort(array):

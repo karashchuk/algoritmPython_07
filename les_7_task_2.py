@@ -3,7 +3,7 @@
 
 import random
 size = 25
-array = [random.randint(0,50) for i in range(size)]
+array = [round(random.uniform(0,50),2) for i in range(size)]
 print(f'Исходная последовательность: {array}')
 
 def merge(left,right):
